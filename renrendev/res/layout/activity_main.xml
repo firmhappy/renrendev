@@ -88,7 +88,7 @@
 
             <Button
                 android:id="@+id/bn_weather"
-                android:layout_width="0dip"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/weather"
@@ -96,7 +96,7 @@
 
             <Button
                 android:id="@+id/bn_distance"
-                android:layout_width="0dip"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/distance"
@@ -104,7 +104,7 @@
 
             <Button
                 android:id="@+id/bn_mode"
-                android:layout_width="0dip"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/mode"
