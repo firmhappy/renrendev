@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Renrendev</string>
+    <string name="app_name">跑友</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="login">用人人账号登入</string>
+    <string name="logout">注销</string>
+    <string name="start">开始</string>
+    <string name="weather">天气适宜</string>
+    <string name="distance">3km</string>
+    <string name="mode">强制模式</string>
+    <string name="kaipao">开跑</string>
+    <string name="yuepaoyou">约跑友</string>
+    <string name="paihang">排行</string>
+    <string name="wo">我</string>
 
 </resources>
