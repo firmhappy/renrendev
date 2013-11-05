@@ -110,8 +110,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			
 			break;
 		case R.id.bn_startrun:
-			Intent intent=new Intent(MainActivity.this,KaipaoActivity.class);
-			startActivity(intent);
+			Intent kaipaointent=new Intent(MainActivity.this,KaipaoActivity.class);
+			startActivity(kaipaointent);
 			break;
 		case R.id.bn_setting:
 			
@@ -132,7 +132,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			
 			break;
 		case R.id.ll_paihang:
-			
+			Intent paihangintent=new Intent(MainActivity.this, PaihangActivity.class);
+			startActivity(paihangintent);
 			break;
 		case R.id.ll_wo:
 			

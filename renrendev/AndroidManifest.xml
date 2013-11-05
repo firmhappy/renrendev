@@ -35,6 +35,8 @@
         </activity>
         <activity android:name=".KaipaoActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".PaihangActivity"
+            android:screenOrientation="portrait"></activity>
         
          <activity
             android:name="com.renn.rennsdk.oauth.OAuthActivity"
