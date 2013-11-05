@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
      >
     
     <TextView android:id="@+id/tv_number"
@@ -28,7 +28,7 @@
         android:paddingTop="7dp"
         android:gravity="center_horizontal"
         android:textSize="15sp"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:text="马化腾"/>
     <TextView android:id="@+id/tv_distanceph"
         android:layout_alignParentRight="true"
@@ -38,7 +38,7 @@
         android:paddingRight="20dp"
         android:gravity="center_horizontal"
         android:textSize="15sp"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:text="1000 m"/>
     
 

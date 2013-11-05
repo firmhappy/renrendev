@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,53 +12,63 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="70dip"
-            android:background="#ff4900"
             android:gravity="center"
             android:text="@string/paihang"
             android:textColor="#ffffff"
             android:textSize="30sp" />
 
-        <LinearLayout
+        <ListView
+            android:id="@+id/lv_first"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F0F0F0"
-            android:orientation="horizontal"
-            android:paddingBottom="10dp"
-            android:paddingLeft="50dip"
-            android:paddingRight="50dip"
-            android:paddingTop="10dp" >
-
-            <Button
-                android:id="@+id/bn_benzhou"
-                android:layout_width="0dip"
-                android:layout_height="40dp"
-                android:layout_weight="1"
-                android:background="#ffffff"
-                android:text="本周" />
-
-            <Button
-                android:id="@+id/bn_zongfen"
-                android:layout_width="0dip"
-                android:layout_height="40dp"
-                android:layout_weight="1"
-                android:background="#C0C0C0"
-                android:text="总分" />
-        </LinearLayout>
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="70dp"
+            android:background="#aa000000"
+            android:divider="#fff"
+            android:dividerHeight="1dp" />
 
         <ListView
-            android:id="@+id/lv_benzhou"
+            android:id="@+id/lv_second"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:divider="#004"
-            android:dividerHeight="2dp" />
-
-        <ListView
-            android:id="@+id/lv_zongfen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:divider="#004"
-            android:dividerHeight="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="70dp"
+            android:background="#aa000000"
+            android:divider="#fff"
+            android:dividerHeight="1dp"
             android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/lv_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="70dp"
+            android:background="#aa000000"
+            android:divider="#000"
+            android:dividerHeight="1dp"
+            android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <ImageView android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/iv_first"/>
+        <ImageView android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/iv_second"/>
+        <ImageView android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/iv_third"/>
     </LinearLayout>
 
     <LinearLayout
@@ -94,6 +105,8 @@
             android:id="@+id/ll_yuepaoyou"
             android:layout_width="0dip"
             android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
             android:layout_weight="1"
             android:background="#88ffffff"
             android:orientation="vertical" >
@@ -116,6 +129,7 @@
             android:id="@+id/ll_paihang"
             android:layout_width="0dip"
             android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
             android:layout_weight="1"
             android:background="#88ffffff"
             android:orientation="vertical" >

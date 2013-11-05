@@ -136,7 +136,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			startActivity(paihangintent);
 			break;
 		case R.id.ll_wo:
-			
+			Intent woinetnt=new Intent(MainActivity.this, WoActivity.class);
+			startActivity(woinetnt);
 			break;
 		
 		}
