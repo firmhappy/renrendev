@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.renn.rennsdk.RennClient;
 
 public class KaipaoActivity extends Activity{
+	//休息一会就是暂停的功能，黑色一块透明度会贬低，数据都显示到对应的TextView上，设计的是黑色块的View和地图的可以划动切换，跑完后用PopupWindow显示跑完后的成绩
 	private RennClient rennClient;
 	
 	private TextView tv_distance,tv_time,tv_speed;
